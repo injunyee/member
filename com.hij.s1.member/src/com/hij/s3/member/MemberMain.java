@@ -12,4 +12,4 @@ public class MemberMain
 		
 		System.out.printf("%d", member.getage());
 	}
-}
+}//git 에 업데이트좀하자 제발...
