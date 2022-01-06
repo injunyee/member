@@ -6,25 +6,50 @@ public class Member
 	private double hight, weight;
 	private int age;
 	
-	public void setage(int age)
+	public String getName()
 	{
-		this.age = 20;
-		if((age>0) && (age<150))
-		{
-			this.age = age;
-		}
+		return name;
 	}
-	public int getage()
+	public void setName(String name)
+	{
+		this.name = name;
+	}// name i/o
+	
+	public String getEmail()
+	{
+		return email;
+	}
+	public void setEmail(String email)
+	{
+		this.email = email;
+	}// email i/o
+	
+	public double getHight()
+	{
+		return hight;
+	}
+	public void setHight(double hight)
+	{
+		this.hight = hight;
+	}
+	
+	public double getWeight()
+	{
+		return weight;
+	}
+	public void setWeight(double weight)
+	{
+		this.weight = weight;
+	}
+	
+	public int getAge()
 	{
 		return age;
 	}
-	
-	public void setHight(int hight)
+	public void setAge(int age)
 	{
-		this.hight = 160;
-		if((hight>=160) && (hight<=250))
-		{
-			
-		}
+		this.age = age;
 	}
-}//Member
+	
+	
+}//class Member

@@ -1,15 +1,16 @@
 package com.hij.s3.member;
-import java.util.*;
 
 public class MemberMain
 {
 	public static void main(String args[])
 	{
-		Scanner sc = new Scanner(System.in);
-		
 		Member member = new Member();
-		member.setage(40);
+		member.setAge(40);
+		member.setHight(180);
+		member.setEmail("ghkd6947@naver.com");
 		
-		System.out.printf("%d", member.getage());
+		System.out.printf("%d\n", member.getAge());
+		System.out.printf("%f\n", member.getHight());
+		System.out.printf("%s\n", member.getEmail());
 	}
 }
